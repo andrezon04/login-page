@@ -1,0 +1,52 @@
+@import url("../global.css");
+
+
+main {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+}
+
+section {
+    width: 49, 12109375%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-container {
+    border: 1px solid blue;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.form-container>p{
+    font-size: 16px;
+    margin-top: 22px ;
+
+}
+
+
+img {
+    width: 50, 87890625%;
+}
+
+form{
+    margin-top: 60px;
+    border: 1px solid magenta;
+     display: flex;
+     flex-direction: column;
+    gap: 20px;
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
